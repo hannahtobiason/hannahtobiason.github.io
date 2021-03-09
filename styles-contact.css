@@ -68,33 +68,36 @@ html, body {
 }
 
 .center {
-    width: 1000px;
+    width: 50%; /* makes browser responsive to changes in size*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	border-radius: 100px;
+ 	background: rgba(256, 256, 256, .80); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/*border: 4px dashed white;*/
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	/*border: 3px dashed red;*/
 	text-align: center;
 }
 
+/* I don't have any headings
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-family: pauline, sans-serif;
-	font-weight: 400;
-	font-style: normal;
+	 FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS 
+	font-family: lato, sans-serif;
+	font-weight: 100;
+	font-style: normal;	
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
-}
+} */
 
+/* again, no headings 
 h2 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS 
 	font-family: lato, sans-serif;
 	font-weight: 100;
 	font-style: normal;	
@@ -103,7 +106,7 @@ h2 {
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-}
+} */
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
@@ -111,8 +114,8 @@ p {
 	font-weight: 100;
 	font-style: normal;	
 	font-size: 1.2em;
+	color:gray;
     line-height: 1.6;
-    color: #fff;
 }
 
 nav{
@@ -120,9 +123,10 @@ nav{
 	font-weight: 100;
 	font-style: normal;	
 	font-size: 1.2em;
+	color:dimgray;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	/*border: dashed turquoise;*/
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -138,13 +142,13 @@ nav a{
 }
 
 a{
-	color:peachpuff;
+	color:dimgray;
 	text-decoration: none;
 	font-weight: bold;
 }
 a:hover{
-	color:black;
-	background:peachpuff;
+	color: #fc6298;
+	/*background: #ff9ec0; I don't want a background hover */
 }
     
 
