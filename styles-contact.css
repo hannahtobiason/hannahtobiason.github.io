@@ -111,18 +111,18 @@ h2 {
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
 	font-family: lato, sans-serif;
-	font-weight: 100;
+	font-weight: bold;
 	font-style: normal;	
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color:gray;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 nav{
 	font-family: lato, sans-serif;
 	font-weight: 100;
 	font-style: normal;	
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color:dimgray;
 	width: 400px;
 	margin: 0 auto;
