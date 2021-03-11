@@ -71,7 +71,7 @@ html, body {
     width: 50%; /* makes browser responsive to changes in size*/
 	padding: 2%;
     margin: 100px auto;
-	border-radius: 100px;
+	border-radius: 200px 50px;
  	background: rgba(256, 256, 256, .80); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	/*border: 4px dashed white;*/
@@ -127,7 +127,7 @@ nav{
 	width: 400px;
 	margin: 0 auto;
 	/*border: dashed turquoise;*/
-	border-width: 3px 0;
+	/*border-width: 3px 0;*/
 	text-align: center;
 	margin-top: 2em;
 }
@@ -136,10 +136,10 @@ nav li{
 	display: inline;
 }
 
-nav a{
+/*nav a{
 	display: inline-block;
 	padding: 10px;
-}
+}*/
 
 a{
 	color:dimgray;
