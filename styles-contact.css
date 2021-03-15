@@ -95,18 +95,18 @@ h1 {
     color: #fff;
 } */
 
-/* again, no headings 
+
 h2 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS 
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-family: lato, sans-serif;
 	font-weight: 100;
 	font-style: normal;	
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color:darkslategray;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-} */
+}
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
@@ -114,6 +114,7 @@ p {
 	font-weight: bold;
 	font-style: normal;	
 	font-size: 1.1em;
+	padding: 3px;
 	color:darkslategray;
     line-height: 1.4;
 }
@@ -129,7 +130,7 @@ nav{
 	/*border: dashed turquoise;*/
 	/*border-width: 3px 0;*/
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
 }
     
 nav li{
