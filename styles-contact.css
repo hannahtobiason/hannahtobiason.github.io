@@ -69,17 +69,17 @@ html, body {
 
 .center {
     width: 50%; /* makes browser responsive to changes in size*/
-	padding: 2%;
+	padding: 5%;
     margin: 100px auto;
-	border-radius: 200px 50px;
- 	background: rgba(256, 256, 256, .80); /*this uses opacity of 75% for the background color*/
+	border-radius: 100%; /* rounded center div */
+ 	background: rgba(256, 256, 256, .80); /*this uses opacity of 80% for the background color*/
 	text-align: center;
 	/*border: 4px dashed white;*/
 }
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 	/*border: 3px dashed red;*/
 	text-align: center;
 }
@@ -114,7 +114,7 @@ p {
 	font-weight: bold;
 	font-style: normal;	
 	font-size: 1.1em;
-	color:gray;
+	color:darkslategray;
     line-height: 1.4;
 }
 
@@ -123,7 +123,7 @@ nav{
 	font-weight: 100;
 	font-style: normal;	
 	font-size: 1.1em;
-	color:dimgray;
+	color:darkslategray;
 	width: 400px;
 	margin: 0 auto;
 	/*border: dashed turquoise;*/
@@ -136,13 +136,13 @@ nav li{
 	display: inline;
 }
 
-/*nav a{
+nav a{
 	display: inline-block;
 	padding: 10px;
-}*/
+}
 
 a{
-	color:dimgray;
+	color:darkslategray;
 	text-decoration: none;
 	font-weight: bold;
 }
