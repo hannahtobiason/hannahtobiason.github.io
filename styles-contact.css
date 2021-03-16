@@ -72,7 +72,7 @@ html, body {
 	padding: 5%;
     margin: 100px auto;
 	border-radius: 100%; /* rounded center div */
- 	background: rgba(256, 256, 256, .80); /*this uses opacity of 80% for the background color*/
+ 	background: rgba(256, 256, 256, .75); /*this uses opacity of 80% for the background color*/
 	text-align: center;
 	/*border: 4px dashed white;*/
 }
@@ -125,7 +125,7 @@ nav{
 	font-style: normal;	
 	font-size: 1.1em;
 	color:darkslategray;
-	width: 400px;
+	/*width: 400px;*/ /*took this line out: now nav bar able to shrink with page size*/
 	margin: 0 auto;
 	/*border: dashed turquoise;*/
 	/*border-width: 3px 0;*/
